@@ -1,6 +1,5 @@
 (function () {
   const hOne: any = document.querySelector("h1");
-  hOne.innerText = "sorteio";
   document.body.style.backgroundColor = "DarkTurquoise";
   hOne.style.fontFamily = "Arial";
 
@@ -29,5 +28,4 @@
     element.innerText = alter;
   }, 3000);
 
-  // 11 31 6
 })();
